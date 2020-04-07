@@ -22,7 +22,45 @@
 
 .aside__title{
     padding-bottom: 20px;
+    text-align: center;
 }
-
-
-
+.pokeList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__card{
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #D9E4EC;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        &--image{
+            border-bottom: 1px solid black;
+        }
+        &--name{
+            width: 100%;
+            padding: 5px;
+            border-bottom: 1px solid black;
+        }
+        &--types{
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            .type{
+                color: white;
+                background-color: gray;
+                border-radius: 5px;
+                margin-right: 5px;
+                padding: 3px;
+                text-transform: uppercase;
+                font-size: 10px;
+                font-family: 'Raleway', sans-serif;
+            }
+        }
+    }
+}

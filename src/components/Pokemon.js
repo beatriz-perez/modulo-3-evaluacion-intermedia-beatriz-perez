@@ -10,13 +10,13 @@ const Pokemon = (props) => {       //----------> recibimos la info con props a t
                 <img className="pokemonImage" src={props.pokemonImage}/>
             </div>
 
-            <div className="pokeList__card--name">
+            <div className="pokeList__card--name text__card--title">
                 <p className="pokemonName">{props.pokemonName}</p>
             </div>
 
             <ul className="pokeList__card--types">
                 {props.pokemonTypes.map((type, index)=>
-                    <li key={index}>
+                    <li className="type" key={index}>
                         {type}
                     </li>
                 )}

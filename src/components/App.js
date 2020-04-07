@@ -29,7 +29,7 @@ class App extends React.Component {
           <Paragraph paragraphContent="Se publicará en GitHub Pages desde el repositorio correspondiente indicando el enlace en la página página principal del repositorio, en la parte superior, al lado de la descripción."/>
         </Main>
 
-        <Aside asideTitle="Título de sección Aside" asideRole="Función de la sección">
+        <Aside asideTitle="Mi lista de pokemon" asideRole="Solución del ejercicio planteado en main">
           <PokeList dataList={this.state.data}/> {/* ----------> Pasamos la info al componente por props */}
         </Aside>
         
