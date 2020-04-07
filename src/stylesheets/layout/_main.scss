@@ -1,0 +1,29 @@
+// ESTILOS DE CONTENEDOR -----------------------------------------
+.container__page--main{
+    width: 100vw;
+    background-color: $bacKgroundMain;
+    border-bottom: 1px solid $colorTheme4;
+}
+.container__section--main{
+    width: 100%;
+    height: $mainSectionHeightMobile;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include mediaSize(tablet){
+        height: $mainSectionHeightTablet;
+    }
+    @include mediaSize(desktop){
+        height: $mainSectionHeightDesktop;
+    }
+}  
+
+// ESTILOS DE ELEMENTOS -------------------------------------------
+
+.main__title{
+    padding-bottom: 20px;
+}
+.paragraph{
+    margin-bottom: 15px;
+}

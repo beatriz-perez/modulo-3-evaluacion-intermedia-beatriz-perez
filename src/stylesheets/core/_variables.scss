@@ -1,0 +1,47 @@
+// THEME COLORS
+$colorTheme1: #FF299C;
+$colorTheme2: #EF27A6;
+$colorTheme3: #706F6F;
+$colorTheme4: #B0B5B3;
+$colorTheme5: #DBDBDB;
+
+$colorWhite: white;
+$colorBlack: black;
+$colorTransparent: transparent;
+
+// TEXT COLORS
+$colorTextBase: $colorBlack;
+$colorTextMiddle: $colorTheme3;
+$colorTextLight: $colorWhite;
+$colorTextAlert: $colorTheme2;
+
+// FONTS
+$fontBig: 'Raleway', sans-serif;
+$fontBase: 'Raleway', sans-serif;
+$fontButton: 'Raleway', sans-serif;
+
+$fontExtraBold: 800;
+$fontBold: 700;
+$fontRegular: 400;
+
+// BACKGROUNDS
+$backgroundHeader: $colorWhite;
+$bacKgroundMain: $colorWhite;
+$bacKgroundAside: $colorWhite;
+$backgroundFooter: $colorWhite;
+
+// MEASUREMENTS
+$headerHeightMobile: auto;
+$mainSectionHeightMobile: auto;
+$asideSectionHeightMobile: auto;
+$footerHeightMobile: auto;
+
+$headerHeightTablet: 15vh;
+$mainSectionHeightTablet: auto;
+$asideSectionHeightTablet: auto;
+$footerHeightTablet: 5vh;
+
+$headerHeightDesktop: 15vh;
+$mainSectionHeightDesktop: auto;
+$asideSectionHeightDesktop: auto;
+$footerHeightDesktop: 5vh;
