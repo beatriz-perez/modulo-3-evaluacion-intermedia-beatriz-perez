@@ -7,7 +7,7 @@ const Pokemon = (props) => {       //----------> recibimos la info con props a t
         <li className="pokeList__card">
 
             <div className="pokeList__card--image">
-                <img className="pokemonImage" src={props.pokemonImage}/>
+                <img className="pokemonImage" src={props.pokemonImage} alt="pokemon"/>
             </div>
 
             <div className="pokeList__card--name text__card--title">
